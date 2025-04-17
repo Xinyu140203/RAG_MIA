@@ -10,7 +10,7 @@ This is the official implementation of the paper "DCMI: A Differential Calibrati
 
 ## Quick Start
 
-###RAG construction
+### RAG Construction
 
 #### Corpus Construction
 To build an index, you first need to save your corpus as a `jsonl` file with each line representing a document.
@@ -79,3 +79,5 @@ python -m flashrag.retriever.index_builder \
   --bm25_backend bm25s \
   --save_dir indexes/ 
 ```
+
+
