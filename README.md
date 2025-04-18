@@ -79,7 +79,7 @@ python -m flashrag.retriever.index_builder \
   --save_dir indexes/ 
 ```
 
-### Run Methods
+### RAG Run Methods
 
 Run the experiment on the NQ dataset using the following command.
 
@@ -95,3 +95,7 @@ The method can be selected from the following:
 Standard-RAG llmlingua SC-RAG ircot spring
 ```
 
+### MIA Based on Differential Calibration
+```bash
+python MIA.py 
+```
