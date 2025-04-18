@@ -25,7 +25,7 @@ You can use the following code to build your own index.
 
 * For **dense retrieval methods**, especially popular embedding models, we use `faiss` to build the index.
 
-* For **sparse retrieval methods (BM25)**, we use `Pyserini` or `bm25s` to build the corpus into a Lucene inverted index. The built index contains the original documents.
+* For **sparse retrieval methods (BM25)**, we use `bm25s` to build the corpus into a Lucene inverted index. The built index contains the original documents.
 
 ##### For Dense Retrieval Methods
 
