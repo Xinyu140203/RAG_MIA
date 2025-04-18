@@ -1,6 +1,5 @@
 # DCMI: A Differential Calibration Membership Inference Attack Against Retrieval-Augmented Generation
 
-<a href="#rocket-quick-start">Quick-Start</a> |
 
 
 This is the official implementation of the paper "DCMI: A Differential Calibration Membership Inference Attack Against Retrieval-Augmented Generation". The proposed Membership Inference Attack based on Differential-calibration against Retrieval-Augmented Generation (RAG) is implemented as follows.
@@ -80,4 +79,19 @@ python -m flashrag.retriever.index_builder \
   --save_dir indexes/ 
 ```
 
+### Run Methods
+
+Run the experiment on the NQ dataset using the following command.
+
+```bash
+python run_exp.py --method_name 'Standard-RAG' \
+                  --split 'test' \
+                  --dataset_name 'nq' \
+                  --gpu_id '0,1,2,3'
+```
+
+The method can be selected from the following:
+```
+Standard-RAG llmlingua SC-RAG ircot spring
+```
 
