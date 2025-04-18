@@ -148,7 +148,7 @@ class Index_Builder:
             # check if the language is chinese
             with open(self.corpus_path, 'r', encoding='utf-8') as file:
                 first_item = json.loads(file.readline()) 
-                contents = first_item.get("contents", "")  # ��ȡ contents �ֶ�
+                contents = first_item.get("contents", "")  # »ñÈ¡ contents ×Ö¶Î
                 zh_flag = judge_zh(contents)
         elif self.corpus_path.endswith(".parquet"):
             corpus = datasets.load_dataset('parquet', data_files=self.corpus_path, split="train")
