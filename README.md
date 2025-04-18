@@ -19,8 +19,6 @@ To build an index, you first need to save your corpus as a `jsonl` file with eac
 {"id": "1", "contents": "..."}
 ```
 
-If you want to use Wikipedia as your corpus, you can refer to our documentation [Processing Wikipedia](./docs/original_docs/process-wiki.md) to convert it into an indexable format.
-
 #### Index Construction
 
 You can use the following code to build your own index.
