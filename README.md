@@ -95,6 +95,12 @@ The method can be selected from the following:
 Standard-RAG llmlingua SC-RAG ircot spring
 ```
 
+### Perturbed samples Construction
+```bash
+python perturb.py 
+```
+
+
 ### MIA Based on Differential Calibration
 ```bash
 python MIA.py 
